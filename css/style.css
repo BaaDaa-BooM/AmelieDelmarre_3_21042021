@@ -135,3 +135,38 @@ header img {
     transition-duration: .25s;
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
 }
+.fonctionnement {
+    padding: 2rem 1rem;
+}
+.fonctionnement > h2 {
+    margin-left: 15px;
+}
+.container_fonctionnement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container_fonctionnement  span  i {
+    padding-right: 10px;
+}
+.container_1, .container_2, .container_3 {
+    padding: 23px;
+    box-shadow: 0 0 0.8rem 0.25rem rgb(0 0 0 / 13%);
+    border-radius: 1.25rem;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+.container_1 > span, .container_2 > span, .container_3 > span {
+    padding-top: 5px;
+}
+.container_numero {
+    color: #fff;
+    background: linear-gradient(to right,#FF79da,#99E2D0 );
+    border: 1px solid #9356dc;
+    border-radius: 50%;
+    padding: 4px 8px 4px 8px;
+    margin: 0 1.5rem 0 -35px;
+}
