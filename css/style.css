@@ -5,6 +5,13 @@ body {
     color: #000000;
     background-color: #F6F6F6;
 }
+a {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
 .chargement_site {
     z-index: 20;
     display: flex;
@@ -95,8 +102,7 @@ header img {
     display: flex;
     justify-content: center;
     padding: 1.25rem 1rem;
-    background-color: #e4e4e4;
-    font-size: 1.2rem;
+    background-color: #d3d3d3;
     position: relative;
 }
 .localisation span {
@@ -105,7 +111,7 @@ header img {
 .en_tete{
     padding: 2rem;
     text-align: center;
-    background-color: #d3d3d3;
+    background-color: #e4e4e4;
 }
 .en_tete > h2 {
     margin-left: auto;
@@ -137,9 +143,13 @@ header img {
 }
 .fonctionnement {
     padding: 2rem 1rem;
+    max-width: 1280px;
+    margin: auto;
+    position: relative;
 }
 .fonctionnement > h2 {
     margin-left: 15px;
+    font-weight: 900;
 }
 .container_fonctionnement {
     display: flex;
@@ -164,9 +174,44 @@ header img {
 }
 .container_numero {
     color: #fff;
-    background: linear-gradient(to right,#FF79da,#99E2D0 );
-    border: 1px solid #9356dc;
+    background: #9356DC;
+    border: 1px solid grey;
     border-radius: 50%;
     padding: 4px 8px 4px 8px;
     margin: 0 1.5rem 0 -35px;
+}
+.bloc {
+    padding: 2rem 1rem;
+    background-color: #e4e4e4;
+}
+.bloc_restaurant {
+    max-width: 1280px;
+    margin: auto;
+    position: relative;
+}
+.container_restaurant {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    gap: 30px;
+    margin: 30px 0 50px;
+}
+.case_restaurant {
+    display: grid;
+    /*height: 210px;*/
+    grid-template-rows: 1fr 40%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 7px #c1c1c1;
+}
+.case_restaurant > img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+.description_restaurant {
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 5px 10px;
 }
