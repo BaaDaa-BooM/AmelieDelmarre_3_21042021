@@ -6,8 +6,8 @@ body {
     background-color: #F6F6F6;
 }
 a {
-    color: black;
     text-decoration: none;
+    color: white;
 }
 a:visited {
     text-decoration: none;
@@ -195,6 +195,9 @@ header img {
     gap: 30px;
     margin: 30px 0 50px;
 }
+.container_restaurant > a {
+    color: black;
+}
 .case_restaurant {
     display: grid;
     /*height: 210px;*/
@@ -214,4 +217,36 @@ header img {
     justify-content: space-around;
     background-color: #fff;
     padding: 5px 10px;
+}
+.description_restaurant p {
+    font-weight: 300;
+}
+footer {
+    padding: 2rem 1rem;
+    background-color: #353535;
+    color: white;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    max-width: 1280px;
+    margin: auto;
+    position: relative;
+}
+.footer > span {
+    font-family: 'Shrikhand', cursive;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+.footer > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer li {
+    padding: 5px;
+}
+.footer li i {
+    padding-right: 10px;
 }
