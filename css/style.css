@@ -22,7 +22,7 @@ a:visited {
     min-height: 100%;
     margin: 0;
     padding: 0;
-    animation: loader-page 3s ease-in-out normal forwards;
+    animation: loader-page 1.75s ease-in-out normal forwards;
     opacity: 1;
     background: #868484;
     position: fixed;
@@ -41,24 +41,24 @@ a:visited {
 .chargement_1 {
     width: 15px;
     height: 15px;
-    animation: jump 1s;
-    animation-delay: 0.5s;
+    animation: jump 0.5s;
+    animation-delay: 0.25s;
     border-radius: 50%;
     background: #9356DC;
 }
 .chargement_2 {
     width: 15px;
     height: 15px;
-    animation: jump 1s;
-    animation-delay: 1s;
+    animation: jump 0.5s;
+    animation-delay: 0.5s;
     border-radius: 50%;
     background: #FF79DA;
 }
 .chargement_3 {
     width: 15px;
     height: 15px;
-    animation: jump 1s;
-    animation-delay: 1.5s;
+    animation: jump 0.5s;
+    animation-delay: 1s;
     border-radius: 50%;
     background: #99E2D0;
 }
@@ -249,4 +249,19 @@ footer {
 }
 .footer li i {
     padding-right: 10px;
+}
+
+/*-----CSS Menu 1-----*/
+header {
+    display: flex;
+    align-items: center;
+}
+header h1 {
+    font-family: 'Shrikhand', cursive;
+    margin-left: auto;
+    margin-right: auto;
+}
+header a {
+    color: black;
+    margin-left: 50px;
 }
