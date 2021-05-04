@@ -212,6 +212,22 @@ header img {
     height: 160px;
     object-fit: cover;
 }
+.new1 {
+    background: #99E2D0;
+    color: #008766;
+    padding: 8px;
+    position: absolute;
+    top: 80px;
+    right: 670px;
+}
+.new2 {
+    background: #99E2D0;
+    color: #008766;
+    padding: 8px;
+    position: absolute;
+    top: 80px;
+    right: 15px;
+}
 .description_restaurant {
     flex-direction: column;
     justify-content: space-around;
@@ -352,7 +368,7 @@ header a {
     text-overflow: ellipsis;
     overflow: hidden;
 }
-.menu_description:hover {
+.menu_description:hover{
     padding-right: 0.5rem;
     border-right: 4.5rem solid #99e2d0;
 }
